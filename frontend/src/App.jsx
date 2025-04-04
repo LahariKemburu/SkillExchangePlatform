@@ -7,7 +7,8 @@ import Register from "./pages/Register";
 
 function App() {
   return (
-    <Router>  {/* ✅ Ensure BrowserRouter wraps everything */}
+
+    <Router>
       <SkillExchangeNavbar />
         <Routes>
           <Route path="/" element={<Home />} />
